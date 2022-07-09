@@ -1,12 +1,12 @@
 import React from 'react';
 import './Form.css';
 
-const Form = ({value, onChange, onCreate, onKeyPress}) => {
+const Form = ({value, onChange, onCreate}) => {
   return (
     <div className="form">
-      <input value={value} onChange={onChange} onKeyPress={onKeyPress}/>
+      <input value={value} onChange={onChange}/>
       <div className="create-button" onClick={onCreate}>
-        바꾸기 
+        주소 변경
       </div>
     </div>
   );

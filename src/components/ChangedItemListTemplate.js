@@ -1,20 +1,20 @@
 import React from 'react';
-import './ChangeUrlTemplate.css';
+import './ChangedItemListTemplate.css';
 
-const ChangeUrlTemplate = ({form, children}) => {
+const ChangedItemListTemplate = ({form, children}) => {
   return (
-    <main className="change-url-template">
+    <main className="changedItem-list-template">
       <div className="title">
         Change URL
       </div>
       <section className="form-wrapper">
         {form}
       </section>
-      <section className="change-wrapper">
+      <section>
         { children }
       </section>
     </main>
   );
 };
 
-export default ChangeUrlTemplate;
+export default ChangedItemListTemplate;
